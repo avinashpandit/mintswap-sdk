@@ -1,16 +1,16 @@
 {
-  "name": "@bscswap/sdk",
+  "name": "@mintswap/sdk",
   "license": "MIT",
-  "version": "3.0.15",
-  "description": "🛠 An SDK for building applications on top of BSCswap.",
+  "version": "1.0.0",
+  "description": "� An SDK for building applications on top of Mintswap.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/bscswap/bscswap-sdk.git",
+  "repository": "https://github.com/avinashpandit/mintswap-sdk.git",
   "keywords": [
-    "bscswap",
+    "mintswap",
     "binance"
   ],
   "module": "dist/sdk.esm.js",
@@ -22,7 +22,6 @@
     "prepublishOnly": "tsdx build"
   },
   "dependencies": {
-    "@bscswap/contracts": "1.0.2",
     "big.js": "^5.2.2",
     "decimal.js-light": "^2.5.0",
     "jsbi": "^3.1.1",
